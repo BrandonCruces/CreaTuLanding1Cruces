@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CreaTuLanding1Cruces/static/css/main.92533717.css",
+    "main.js": "/CreaTuLanding1Cruces/static/js/main.a3ae56d3.js",
+    "index.html": "/CreaTuLanding1Cruces/index.html",
+    "main.92533717.css.map": "/CreaTuLanding1Cruces/static/css/main.92533717.css.map",
+    "main.a3ae56d3.js.map": "/CreaTuLanding1Cruces/static/js/main.a3ae56d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92533717.css",
+    "static/js/main.a3ae56d3.js"
+  ]
+}
