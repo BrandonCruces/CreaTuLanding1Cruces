@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrito</title>
+</head>
+<body>
+
+<h1>Mi carrito</h1>
+
+<% if (!cart.products.length) { %>
+    <p>El carrito está vacío</p>
+<% } %>
+
+<ul>
+
+    <% cart.products.forEach(item => { %>
+
+        <% if (item.product) { %>
+
+            <li>
+                <strong><%= item.product.title %></strong>
+                - $<%= item.product.price %>
+                - Cantidad: <%= item.quantity %>
+            </li>
+
+        <% } %>
+
+    <% }) %>
+
+</ul>
+
+</body>
+</html>
